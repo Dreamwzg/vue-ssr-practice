@@ -1,0 +1,13 @@
+{
+    "restartable":"rs",
+    "ignore":[
+        "./public",
+        "node_modules/**/node_modules",
+        "./webpack.config.js"
+    ],
+    "verbose":true,
+    "env":{
+        "NODE_ENV":"development"
+    },
+    "ext":"js json ejs"
+}
